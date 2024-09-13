@@ -34,4 +34,4 @@ jobs:
           app-name: "todo-api-cloud"
           slot-name: "Production"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5302A8C94110444AB9AC554066CB0545 }}
-          package: "./dist"
+          package: .
